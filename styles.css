@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  height: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 200;;
+  margin-top: 1%;
+}
+
+.crystal-ball {
+  width: 35%;
+  margin: 2% auto;
+  display: block;
+}
